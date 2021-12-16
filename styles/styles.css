@@ -1,0 +1,84 @@
+body{
+	font-size: 20px;
+	color: #064366;
+	background-color: #afd9ee ;
+}
+
+.navbar{
+
+    top: 0; /* Position the navbar at the top of the page */
+    width: 100%; /* Full width */
+}
+
+#maincontent{
+	margin-top: 30px; /* Add a top margin to avoid content overlay */
+}
+.navbar-brand h1{
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	color: #ffffff;
+	font-size: 1.5em;
+	text-transform: uppercase;
+	text-shadow: 1px 1px 1px #222;
+	margin-top: 0;
+	margin-bottom: 0;
+	line-height: .75;
+    letter-spacing: 2px;
+}
+.navbar-brand a:hover, .navbar-brand a:focus{
+    text-decoration: none;
+}
+
+#nav-list{
+	margin-top: 10px;
+}
+#nav-list a{
+	color:#064366;
+	text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+#nav-list a:hover{
+  background: #E7E7E7;
+}
+#nav-list a span{
+	font-size: 1.0em;
+}
+
+.container .jumbotron{
+	box-shadow: 0 0 50px #77a9c2;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+} 
+
+  /* Three image containers (use 25% for four, and 50% for two, etc) */
+.column {
+	float: left;
+	width: 33.33%;
+	padding: 5px;
+  }
+  
+  /* Clear floats after image containers */
+  .row::after {
+	content: "";
+	clear: both;
+	display: table;
+  }
+
+footer{
+	background-color: #064366 ;
+	color: white;
+	font-style: italic;
+}
+
+form{
+	background-color: #D6EEEE;
+	padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+
+
